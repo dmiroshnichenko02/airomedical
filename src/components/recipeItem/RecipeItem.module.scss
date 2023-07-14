@@ -1,0 +1,35 @@
+.card {
+    width: 500px;
+    min-height: 600px;
+    background-color: #f1d818;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    h2 {
+        font-size: 36px;
+        text-align: center;
+        color: #000;
+        margin-bottom: 10px;
+    }
+    img {
+        width: 100%;
+        height: 350px;
+        object-fit: contain;
+    }
+    .descr,
+    .ph,
+    .brewed,
+    .contributed {
+        font-size: 18px;
+        color: #000;
+        text-align: center;
+    }
+    .ph,
+    .brewed,
+    .contributed {
+        text-align: left;
+        margin-top: 15px;
+        font-size: 22px;
+        color: #000;
+    }
+}
